@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { UserDataService } from '../services/user-data.service';
 @Component({
   selector: 'app-display-registered-user',
   templateUrl: './display-registered-user.component.html',
@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayRegisteredUserComponent implements OnInit {
 
-  constructor() { }
+  users:any;
 
+  constructor(private userData:UserDataService) { 
+    this.userData.users().subscribe((data) => {
+      this.users = data;
+    })
+  }
   ngOnInit(): void {
   }
 

@@ -1,0 +1,39 @@
+{
+  "registeredUser": [
+    {
+      "id": 1,
+      "firstName": "Sebastian",
+      "lastName": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "password": "dasdaswee2312"
+    },
+    {
+      "id": 2,
+      "firstName": "Steve",
+      "lastName": "Palmer",
+      "email": "steve@codingthesmartway.com",
+      "password": "231mopm"
+    },
+    {
+      "id": 3,
+      "firstName": "Ann",
+      "lastName": "Smith",
+      "email": "ann@codingthesmartway.com",
+      "password": "r3r333ad2eo9j"
+    },
+    {
+      "firstName": "Keith",
+      "lastName": "Sandamele",
+      "email": "skeithpatrick@gmail.com",
+      "password": "98744dawe",
+      "id": 4
+    },
+    {
+      "firstName": "Sophie",
+      "lastName": "Sandamele",
+      "email": "sophies@gmail.com",
+      "password": "89ewqe498asd",
+      "id": 5
+    }
+  ]
+}
