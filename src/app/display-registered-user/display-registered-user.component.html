@@ -1,1 +1,10 @@
-<p>display-registered-user works!</p>
+<h1>Registered User</h1>
+<div *ngFor="let user of users">
+    <h4>Account of {{ user.firstName | uppercase }} {{ user.lastName | uppercase }}</h4>
+    <ul>
+        <li>First Name: {{ user.firstName }}</li>
+        <li>Last Name: {{ user.lastName }}</li>
+        <li>Email: {{ user.email }}</li>
+        <li>Password: {{ user.password }}</li>
+    </ul>
+</div>
